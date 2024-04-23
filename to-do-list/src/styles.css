@@ -18,6 +18,19 @@ nav {
     font-family: "Outfit", sans-serif;
 }
 
+.nav-button {
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    color: black;
+    border-radius: 25px;
+}
+
+.nav-button:hover {
+    cursor: pointer;
+    background-color: rgb(51, 71, 55);
+}
+
 .Links  {
     padding-right: 50px;
 }
@@ -49,6 +62,12 @@ footer {
     padding-left: 50px;
     height: 400px;
     font-family: "Outfit", sans-serif;
+}
+
+.funnyimage {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
 }
 
 .title {
@@ -98,4 +117,56 @@ ul {
 
 .game-info {
     margin-left: 20px;
+}
+
+.layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 5%;
+}
+
+.layout-2 {
+    width: 40%;
+}
+
+.layout-3 {
+    width: 40%;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.listItem {
+    display: flex;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+.inputTodo {
+    padding: 10px;
+    border-radius: 25px;
+    border: solid black 1px;
+}
+
+.taskButton {
+    padding: 10px 20px 10px 20px;
+    margin-left: 1%;
+    border: 0px; 
+    background-color: rgb(23, 23, 23);
+    color: white;
+    border-radius: 25px;
+}
+
+.taskButton:hover {
+    background-color: rgb(51, 71, 55);
+    cursor: pointer;
 }

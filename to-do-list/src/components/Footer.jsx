@@ -8,7 +8,7 @@ const Footer = () => {
       <h1><HiOutlineSparkles />To do list app</h1>
       <div className="Links">
         <Link to="/">Hem</Link>
-        <Link to="/ToDoList">To do list</Link>
+        <Link to="/TodoPage">To do list</Link>
         <Link to="/GamePage">Game</Link>
       </div>
     </footer>
