@@ -119,20 +119,8 @@ ul {
     margin-left: 20px;
 }
 
-.layout {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 100%;
-    margin-bottom: 5%;
-}
-
-.layout-2 {
-    width: 40%;
-}
-
-.layout-3 {
-    width: 40%;
+.forms {
+    margin: 5% 0% 5% 0%;
 }
 
 form {
@@ -169,4 +157,31 @@ form {
 .taskButton:hover {
     background-color: rgb(51, 71, 55);
     cursor: pointer;
+}
+
+.formResults {
+    margin: 5% 30% 5% 30%;
+}
+
+.result {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.5%;
+    justify-content: space-around;
+    align-items: center;
+    border: solid rgb(96, 96, 96) 2px;
+    background-color: rgb(203, 203, 203);
+    padding: 1% 0.5% 1% 0.5%;
+    border-radius: 25px;
+    flex-wrap: wrap;
+}
+
+.resultP {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.check {
+    font-size: 30px;
+    color: grey;
 }

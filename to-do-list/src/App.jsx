@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import LandingPage from "./Pages/LandingPage";
-import Navbar from "./components/Navbar"
-import TodoPage from "./Pages/TodoPage"
+import Navbar from "./components/Navbar";
+import TodoPage from "./Pages/TodoPage";
 import Footer from "./components/Footer";
-import GamePage from "./Pages/GamePage"
+import GamePage from "./Pages/GamePage";
 
 const App = () => {
   return (

@@ -1,10 +1,12 @@
 import React from "react";
-import ToDo from "../components/ToDo"
+import ToDo from "../components/ToDo";
 
 const TodoPage = () => {
-    return <div>
+    return ( 
+    <div>
     <ToDo  />
     </div>
+    )
 }
 
 export default TodoPage;
