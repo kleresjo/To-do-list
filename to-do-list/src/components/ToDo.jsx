@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { HiMinusCircle } from "react-icons/hi";
+import { HiOutlineCheckCircle } from "react-icons/hi";
 
 const ToDo = () => {
   const [task, setTask] = useState("");
@@ -39,12 +40,16 @@ const ToDo = () => {
       </form>
       <div className="formResults">
         {tasks.map((task) => (
-          <div className="result" key={task.id} onClick={() => handleMoveToDone(task.id)}>
+          <div className="result">
             <p>{task.text}</p>
-            <HiMinusCircle className="check" onClick={() => handleDelete(task.id)}/>
+            <div className="row">
+            <div><HiOutlineCheckCircle className="check" key={task.id} onClick={() => handleMoveToDone(task.id)}/></div>
+            <div onClick={() => handleDelete(task.id)}><HiMinusCircle className="check"  /></div>
+          </div>
           </div>
         ))}
       </div>
+      <h1 className="title">Done</h1>
       <div className="formResults">
         {doneTasks.map((task) => (
           <div className="result" key={task.id}>

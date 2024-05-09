@@ -185,3 +185,14 @@ form {
     font-size: 30px;
     color: grey;
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.check:hover {
+    color: rgb(51, 71, 55);
+    cursor: pointer;
+}
